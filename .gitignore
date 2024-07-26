@@ -1,3 +1,8 @@
-# Ignore the secrets file
+# .gitignore
 /.streamlit/secrets.toml
-
+update_sqlite.sh
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb
+.env
