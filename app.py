@@ -47,8 +47,6 @@ stakeholder = st.text_input('Enter The Stakeholder Team')
 api_key = st.secrets["COHERE_API_KEY"]
 os.environ['COHERE_API_KEY'] = api_key
 
-# COHERE_API_KEY == se.secrets["COHERE_API_KEY"]
-# os.environ["COHERE_API_KEY"] = "TUcWX6mYhVjQSOfqMJOFd5vawEuCvqwzDhBWJVJ8"
 llm = ChatCohere()
 
 #xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
