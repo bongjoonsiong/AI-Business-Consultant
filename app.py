@@ -1,14 +1,11 @@
 # Import Libraries
 
-import subprocess
 import streamlit as st
 
 from crewai import Agent, Task, Crew
 import os
 from langchain_cohere import ChatCohere
 
-# Run the update script
-subprocess.run(['sh', 'update_sqlite.sh'])
 
 ### 2. Configure Streamlit UI Environment
 

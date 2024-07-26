@@ -1,6 +1,5 @@
 # .gitignore
 /.streamlit/secrets.toml
-update_sqlite.sh
 __pycache__/
 *.py[cod]
 *.so
