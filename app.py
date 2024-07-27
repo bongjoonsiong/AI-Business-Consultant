@@ -1,6 +1,12 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 # Import Libraries
 
 import streamlit as st
+import chromadb
+
 from crewai import Agent, Task, Crew
 import os
 from langchain_cohere import ChatCohere
