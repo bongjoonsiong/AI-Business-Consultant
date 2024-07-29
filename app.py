@@ -3,7 +3,7 @@
 #sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 # Import Libraries
-
+import sqlite3
 import streamlit as st
 import chromadb
 
