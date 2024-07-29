@@ -1,6 +1,6 @@
 streamlit==1.28.1
 chromadb==0.4.17
-pysqlite3
+#pysqlite3
 crewai
 langchain
 langchain_cohere
