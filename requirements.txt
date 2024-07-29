@@ -1,11 +1,6 @@
 streamlit==1.28.1
 chromadb==0.4.17
-pysqlite3-binary
-
-crewaipi
+pysqlite3
+crewai
 langchain
-streamlit
 langchain_cohere
-cohere
-
-
